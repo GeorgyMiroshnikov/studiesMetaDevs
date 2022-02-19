@@ -19,7 +19,6 @@ public class Task2_4 {
         }
         if (statement2) {
             System.out.println("Первое введённое число меньше второго");
-
         }
         if (statement1 == statement2) {
             System.out.println("Числа равны");
