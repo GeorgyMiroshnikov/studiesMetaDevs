@@ -4,88 +4,92 @@ import java.util.Scanner;
 
 public class Task2_2 {
     public static void main(String[] args) {
+
+        task_2a();
+        task_2b();
+        task_2c();
+        task_2d();
+        task_2e();
+        task_2f();
+        task_2g();
+        task_2h();
+    }
+
+    static void task_2a() {
         int a = 10;
         int b = 5;
-
-        task_2a(a, b);
-        task_2b(a, b);
-        task_2c(a, b);
-        task_2d(a, b);
-        task_2e(a, b);
-        task_2f(a, b);
-        task_2g(a, b);
-        task_2h(a, b);
-    }
-
-    static void task_2a(int a, int b) {
-        a = 10;
-        b = 5;
         boolean statement = a > b;
         System.out.println(statement);
     }
 
-    static void task_2b(int a, int b) {
-        a = 50;
-        b = 25;
+    static void task_2b() {
+        int a = 50;
+        int b = 25;
         boolean statement = a > b;
         System.out.println(statement);
     }
 
-    static void task_2c(int a, int b) {
-        a = 67;
-        b = 23;
+    static void task_2c() {
+        int a = 67;
+        int b = 23;
         boolean statement = a < b;
         System.out.println(statement);
     }
 
-    static void task_2d(int a, int b) {
-        a = 90;
-        b = 80;
-        boolean statement = a == b;
+    static void task_2d() {
+        int a = 90;
+        int b = 80;
+        boolean statement = (a == b);
         System.out.println(statement);
     }
 
-    static void task_2e(int a, int b) {
+    static void task_2e() {
         Scanner numInput = new Scanner(System.in);
         System.out.print("Введи любое число: ");
-        a = numInput.nextInt();
-        b = 60;
-        boolean statement = a == b;
+        int a = numInput.nextInt();
+        int b = 60;
+        boolean statement = (a == b);
         System.out.println(statement);
     }
 
-    static void task_2f(int a, int b) {
+    static void task_2f() {
         Scanner numInput = new Scanner(System.in);
-        a = 100;
+        int a = 100;
         System.out.print("Введи любое число: ");
-        b = numInput.nextInt();
-        boolean statement = a < b;
-        System.out.println(statement);
+        int b = numInput.nextInt();
+
+
+        if (b < 100) {
+            b = 101;
+            boolean statement = a < b;
+            System.out.println(statement);
+        }
     }
 
-    static void task_2g(int a, int b) {
+    static void task_2g() {
         Scanner numInput = new Scanner(System.in);
-        b = 60;
+        int b = 60;
         System.out.print("Введи любое число: ");
-        a = numInput.nextInt() + b / 2;
+        int a = numInput.nextInt() + b / 2;
 
         if (a != b) {
             a = b;
         }
 
-        boolean statement = a == b;
+        boolean statement = (a == b);
         System.out.println(statement);
     }
 
-    static void task_2h(int a, int b) {
+    static void task_2h() {
         Scanner numInput = new Scanner(System.in);
         System.out.print("Введи любое число: ");
+        int a;
+        int b = 60;
         a = numInput.nextInt() + b / 2;
-        b = 60;
         if (a != b) {
             a = b;
         }
-        boolean statement = a == b;
+        boolean statement = (a == b);
 
         System.out.println(statement);
     }

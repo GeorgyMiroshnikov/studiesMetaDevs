@@ -14,8 +14,7 @@ public class Task2_1 {
         }
         if (value < 10) {
             System.out.println("Число меньше десяти!");
-        }
-        if (value == 10) {
+        } else {
             System.out.println("Число равно десяти!");
         }
     }
