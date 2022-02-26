@@ -59,11 +59,11 @@ public class Task2_2 {
         int b = numInput.nextInt();
 
 
-        if (b < 100) {
-            b = 101;
-            boolean statement = a < b;
-            System.out.println(statement);
+        if (b <= a) {
+            b =101;
         }
+        boolean statement = a < b;
+        System.out.println(statement);
     }
 
     static void task_2g() {
