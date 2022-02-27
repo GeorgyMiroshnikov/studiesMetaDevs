@@ -1,4 +1,4 @@
-package com.metadevs;
+package com.metadevs.livecoding1;
 
 public class Main {
 
