@@ -56,9 +56,8 @@ public class Task2_2 {
         int a = 100;
         System.out.print("Введи любое число: ");
         int b = numInput.nextInt();
-
         if (b <= a) {
-            b =101;
+            b = 101;
         }
         boolean statement = a < b;
         System.out.println(statement);
@@ -81,9 +80,9 @@ public class Task2_2 {
     static void task_2h() {
         Scanner numInput = new Scanner(System.in);
         System.out.print("Введи любое число: ");
-        int a;
         int b = 60;
-        a = numInput.nextInt() + b / 2;
+        int a = numInput.nextInt() + b / 2;
+
         if (a != b) {
             a = b;
         }

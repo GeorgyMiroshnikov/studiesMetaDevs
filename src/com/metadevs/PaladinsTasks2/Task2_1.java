@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Task2_1 {
     public static void main(String[] args) {
-
         Scanner input = new Scanner(System.in);
         System.out.print("Введите число: ");
         int value = input.nextInt();
