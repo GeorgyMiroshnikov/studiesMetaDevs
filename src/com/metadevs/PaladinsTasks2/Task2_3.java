@@ -12,7 +12,7 @@ public class Task2_3 {
         if (intAnswer.equalsIgnoreCase("мяу")) {
             System.out.println("Верно!");
         } else {
-            System.out.println("Не верно ! Жука бы такого не сказала..");
+            System.out.println("Не верно! Жука бы такого не сказала..");
         }
     }
 }

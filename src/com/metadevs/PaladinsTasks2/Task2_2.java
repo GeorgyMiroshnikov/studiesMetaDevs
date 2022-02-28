@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Task2_2 {
     public static void main(String[] args) {
-
         task_2a();
         task_2b();
         task_2c();
@@ -57,7 +56,6 @@ public class Task2_2 {
         int a = 100;
         System.out.print("Введи любое число: ");
         int b = numInput.nextInt();
-
 
         if (b <= a) {
             b =101;
