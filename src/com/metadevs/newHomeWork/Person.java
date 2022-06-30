@@ -14,6 +14,26 @@ public class Person {
         this.salary = salary;
     }
 
+    public String getNameOfPlaceOfWork() {
+        return nameOfPlaceOfWork;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setSalary(int salary) {
+        this.salary = salary;
+    }
+
+    public void setNameOfPlaceOfWork(String nameOfPlaceOfWork) {
+        this.nameOfPlaceOfWork = nameOfPlaceOfWork;
+    }
+
     public String getName() {
         return name;
     }
@@ -26,10 +46,18 @@ public class Person {
         return salary;
     }
 
-    public void information() {
+    public void aboutPerson() {
         System.out.println("Меня зовут " + getName() +
                 ", " + "Мне " + getAge() + " лет" +
                 ", в фирме " +  " " +
                 "я получаю " + getSalary() + " рублей ");
+    }
+    public boolean checkDifference(){
+        boolean statement = salary >= age;
+        System.out.println(statement);
+        return statement;
+    }
+
+    public void setCompanyName(String name) {
     }
 }

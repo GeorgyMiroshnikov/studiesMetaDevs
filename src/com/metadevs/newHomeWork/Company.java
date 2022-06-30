@@ -3,10 +3,9 @@ package com.metadevs.newHomeWork;
 import java.util.ArrayList;
 import java.util.List;
 
-
-public class Company {
+public class Company implements IdealCompany {
     private String name;
-    private List<Person> persons;
+    private ArrayList<Person> persons;
 
     public String getName() {
         return name;
@@ -17,28 +16,35 @@ public class Company {
         persons = new ArrayList<Person>();
     }
 
-    public void rectuitPerson(Person person) {
+    @Override
+    public void rectuitPerson(Person person, int salary) {
+        persons.add(person);
+        person.setSalary(salary);
+        person.setCompanyName(name);
     }
 
-    public void firePerson(Person person) {
-        int x =4;
-        switch (x) {
-            case 1:
-                persons.remove(1);
-                break;
-            case 2:
-                persons.remove(2);
-                break;
-            default:
-                break;
+    @Override
+    public void firePerson(String name) {
+        for (int i = 0; i < persons.size(); i++) {
+            if (persons.get(i).getName() == name) {
+                persons.remove(i);
+            }
         }
     }
 
-    public void about() {
+    @Override
+    public void checkSalaryAndAge() {
+        for (int i = 0; i < persons.size(); i++) {
+            persons.get(i).checkDifference();
+        }
+    }
+
+    @Override
+    public void aboutCompany() {
         System.out.println(name);
         for (int i = 0; i < persons.size(); i++) {
             System.out.println(persons.get(i));
-            persons.get(i).information();
+            persons.get(i).aboutPerson();
         }
     }
 }
