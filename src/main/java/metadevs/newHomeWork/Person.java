@@ -1,4 +1,4 @@
-package com.metadevs.newHomeWork;
+package metadevs.newHomeWork;
 
 import javax.crypto.spec.PSource;
 

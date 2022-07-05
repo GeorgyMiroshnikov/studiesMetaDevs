@@ -1,4 +1,4 @@
-package com.metadevs.oop;
+package metadevs.oop;
 
 public class Fish extends Animal {
     public Fish(String name, int age, String sex, boolean presenceOfHair) {

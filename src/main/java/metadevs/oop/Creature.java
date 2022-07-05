@@ -1,4 +1,4 @@
-package com.metadevs.oop;
+package metadevs.oop;
 
 public abstract class Creature {
 

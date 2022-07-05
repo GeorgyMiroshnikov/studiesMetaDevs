@@ -1,4 +1,4 @@
-package com.metadevs.oop;
+package metadevs.oop;
 
 public class Snake extends Animal {
     public Snake(String name, int age, String sex, boolean presenceOfHair) {

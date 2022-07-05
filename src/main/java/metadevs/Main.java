@@ -1,4 +1,4 @@
-package com.metadevs;
+package metadevs;
 
 public class Main {
 

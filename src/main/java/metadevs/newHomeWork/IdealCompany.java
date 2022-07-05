@@ -1,4 +1,4 @@
-package com.metadevs.newHomeWork;
+package metadevs.newHomeWork;
 
 public interface IdealCompany {
     public String getName();

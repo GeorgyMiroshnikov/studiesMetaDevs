@@ -1,4 +1,4 @@
-package com.metadevs.oop;
+package metadevs.oop;
 
 public class Bird extends Animal{
     public Bird(String name, int age, String sex, boolean presenceOfHair) {

@@ -1,4 +1,4 @@
-package com.metadevs.newHomeWork;
+package metadevs.newHomeWork;
 
 import java.util.ArrayList;
 import java.util.List;

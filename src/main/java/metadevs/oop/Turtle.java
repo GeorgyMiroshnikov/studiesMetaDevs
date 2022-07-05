@@ -1,4 +1,4 @@
-package com.metadevs.oop;
+package metadevs.oop;
 
 public class Turtle extends Animal {
     public Turtle(String name, int age, String sex, boolean presenceOfHair) {

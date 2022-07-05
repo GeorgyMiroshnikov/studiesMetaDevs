@@ -1,4 +1,4 @@
-package com.metadevs.oop;
+package metadevs.oop;
 
 import java.util.ArrayList;
 import java.util.List;
