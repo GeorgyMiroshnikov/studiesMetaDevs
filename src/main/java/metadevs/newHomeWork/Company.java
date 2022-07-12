@@ -45,6 +45,7 @@ public class Company implements IdealCompany {
         for (int i = 0; i < persons.size(); i++) {
             System.out.println(persons.get(i));
             persons.get(i).aboutPerson();
+            System.out.println(persons.size());
         }
     }
 }
